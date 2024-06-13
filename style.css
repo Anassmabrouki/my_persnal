@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0a0c60;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    display: inline;
+}
+
+.my-name {
+    color: #ff6347; /* Change this color to your preference */
+    margin-left: 10px; /* Optional: adds some space between "Welcome to My Personal Site" and your name */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0c125a;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+span {
+    background-color: white;
+    color: #0a0c60;
+}
